@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "203454150803",
+    "project_id": "image-sharing-app-e2324",
+    "storage_bucket": "image-sharing-app-e2324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203454150803:android:3890bb023d7036070e7566",
+        "android_client_info": {
+          "package_name": "com.zobaer53.imagesharingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203454150803-t0m27i4e0p9p1956p68bsn77n9u23nqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0UUm-MTlOQsifz--ckDWsu0KeQ1-rsAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203454150803-t0m27i4e0p9p1956p68bsn77n9u23nqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
