@@ -10,7 +10,7 @@ import com.bumptech.glide.Glide
 import com.zobaer53.imagesharingapp.R
 import com.zobaer53.imagesharingapp.model.MyModel
 
-class MyAdapter(val context:Context, private val mList: List<MyModel> ) : RecyclerView.Adapter<com.zobaer53.imagesharingapp.adapter.MyAdapter.ViewHolder>() {
+class MyAdapter(val context:Context, private val mList: List<String> ) : RecyclerView.Adapter<MyAdapter.ViewHolder>() {
 
     // create new views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -27,7 +27,7 @@ class MyAdapter(val context:Context, private val mList: List<MyModel> ) : Recycl
 
         val ItemsViewModel = mList[position]
         Glide.with(context)
-            .load(ItemsViewModel.apartmentImage)
+            .load(ItemsViewModel)
             .fitCenter()
             .into(holder.imageView)
 
